@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content=" width=device-width, initial-scale=1.0">
+
+
+<link rel="stylesheet" href="style.css">
+
+<title>Team </title>
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Edu+VIC+WA+NT+Beginner&display=swap');
+
+* {
+padding:0;
+margin:0;
+}
+body{
+background-color:#FAF3E3;
+font-family: "New Century Schoolbook", serif;
+ }
+ .nav {
+      background-color: #7A86B6;
+      padding:15px 3px;
+  animation-name: example;
+  animation-duration: 4s;
+	  }
+
+ @keyframes example {
+  0%   {background-color:#E5E6E9;}
+  25%  {background-color: #2980B9;}
+  50%  {background-color: #283747;}
+  50% {background-color: #00D7FF;}
+  }
+    .nav a {
+      color: #0F3D3E;
+      padding: 14px 16px;
+      text-decoration: #FDFEFE;
+      font-size: 20px;
+
+    }
+.nav a:hover {
+  background-color: white;
+}
+
+ .contain{
+ margin: 20px 40px;
+ color: black;
+ text-align: center;
+ }
+ .heading {
+ font-size: 60px;
+ color:black;
+ }
+.heading spam {
+font-style: italic;
+font-size: 30px;
+}
+.profiles {
+   display: flex;
+   justify-content: space-around;
+   flex-wrap: wrap;
+   margin: 50px 100px;
+}
+.profile {
+   flex-basis : 260px;
+   }
+.profile .profile-img{
+   hight: 260px;
+   width:260px;
+   border-radius: 50%;
+   filter: grayscale (100%);
+   cursor: pointer;
+   transition: 400ms;
+   }
+  .text-center {
+      text-align: center;
+    }
+
+input[type=text], [type=email],textarea {
+background-color: #F9F9F9;
+  width: 45%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+.button{
+  background-color: #231955;
+  border: none;
+  color: white;
+  padding: 5px 20px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 20px;
+  margin: 6px 4px;
+  cursor: pointer;
+}
+.container {
+text-align: left;
+  border-radius: 5px;
+  background-color: #1F4690;
+  padding: 20px;
+  color: white;
+}
+
+
+
+
+
+</style>
+</head>
+<body>
+ <div class="nav text-center">
+    <a class="#a" href="index.html">Home</a>
+    <a href="team.html">About Us</a>
+    <a href="gallery.html">Gallery</a>    
+    <a href="festival.html">Festival</a>    
+   <a href="contact.html">Contact</a>
+ </div>
+<div class="contain">
+<h1 class="heading">Our Team</h1>
+
+
+ <div class="profiles">
+  <div class="profile">
+ <img src="img/team/nirmal1.jpg" class="profile-img">
+ 
+ <h3 class="user-name"> Thapa Nirmal</h3>
+ <h5> Team Leader</h5>
+ <p> KCGI Student</p>
+ </div>
+ 
+   <div class="profile">
+    <img src="img/team/viber.jpg" class="profile-img">
+ 
+ <h3 class="user-name"> Ghimire Suman</h3>
+ <h5> Team Support</h5>
+ <p> KCGI Student</p>
+ </div>
+ 
+ <div class="profile">
+    <img src="img/team/vishma.jpg" class="profile-img">
+ 
+ <h3 class="user-name">Shimkhada Vishma</h3>
+ <h5> Team Support</h5>
+ <p> KCGI Student</p>
+ </div>
+ 
+ 
+ <div class="profile">
+    <img src="img/team/asmina.jpg" class="profile-img">
+	<br>
+ 
+ <h3 class="user-name">Neaupane Asmina</h3>
+ <h5> Team Suport</h5>
+ <p> KCGI Student</p>
+ </div>
+ <div class="profile">
+    <img src="img/team/bunu.jpg" class="profile-img">
+ 
+ <h3 class="user-name">Khadka Bunu</h3>
+ <h5> Team Support</h5>
+ <p>KCGI Student</p>
+ </div>
+ </div>
+ </div>
+ <br>
+ <br>
+ <br>
+ <footer>
+ <div class="nav text-center">
+<h2>Subscribe for new updates </h2>
+<form>
+<div class="container">
+ <label for="fname" ><b>First name:</b></label><br>
+ <input type="text" id="fname" name="fname" placeholder="Your Name" value=""><br><br>
+ <label for="email" ><b>Email Address:</b></label><br>
+ <input type="email" id="email" name="email" placeholder=" Your Email address" value=""><br>
+<button class="button" onclick="alert('Submitted')" height="30" width="40">Submit</button>
+</form>
+
+</div>
+ </div>
+</footer>
+  <br><br>
+ <div>
+  <span class="copyright">&copy</span>
+<span class="copyright">All rights reserved</span> <br>
+ The content and images are copyright protected with the respective owners.
+ </div>
+
+
+ </body>
+ </html>
